@@ -4982,6 +4982,10 @@ a.close.disabled {
     clear: both;
     content: ""; }
 
+.carousel-inner > .item > img {
+   width:635px;
+   height:600px;
+ }
 .carousel-item {
   position: relative;
   display: none;

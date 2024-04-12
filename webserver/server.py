@@ -23,9 +23,19 @@ def services():
     return render_template("services.html")
 
 
+@app.route("/loc.html")
+def loc():
+    return render_template("loc.html")
+
+
 @app.route("/rooms.html")
 def rooms():
     return render_template("rooms.html")
+
+
+@app.route("/studio.html")
+def studio():
+    return render_template("studio.html")
 
 
 @app.route("/contact.html")

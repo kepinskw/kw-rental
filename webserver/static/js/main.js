@@ -160,6 +160,32 @@
 
 	$('.appointment_time').timepicker();
 
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel();
+});
+
+
+
+    $(document).ready(function() {
+
+      $("#about-carousel").owlCarousel({
+
+          navigation : true, // Show next and prev buttons
+
+          slideSpeed : 300,
+          paginationSpeed : 400,
+
+          items : 1,
+          itemsDesktop : false,
+          itemsDesktopSmall : false,
+          itemsTablet: false,
+          itemsMobile : false
+
+      });
+
+    });
+
+
 
 
 })(jQuery);
