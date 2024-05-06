@@ -11532,12 +11532,13 @@ h1, h2, h3, h4, h5,
 }
 
 .hero-wrap .slider-text h2.subheading {
-    font-size: 18px;
+    font-size: 26px;
     font-family: "Poppins", Arial, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: white;
     display: inline-block;
     position: relative;
+    text-shadow: #95999c 1px 1px 1px;
 }
 
 .hero-wrap .slider-text p {
