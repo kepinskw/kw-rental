@@ -8811,7 +8811,9 @@ button.bg-dark:focus {
     margin-right: 1.5rem !important;
 }
 
-.mb-4,
+.mb-4{
+    margin-bottom: 0.5rem !important;
+}
 .my-4 {
     margin-bottom: 1.5rem !important;
 }
@@ -11538,7 +11540,8 @@ h1, h2, h3, h4, h5,
     color: white;
     display: inline-block;
     position: relative;
-    text-shadow: #95999c 1px 1px 1px;
+    /*text-shadow: #95999c 1px 1px 1px;*/
+    text-shadow: #3f3d3d 1px 1px 5px;
 }
 
 .hero-wrap .slider-text p {
