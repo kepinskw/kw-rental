@@ -9,38 +9,50 @@ app = Flask(__name__, static_folder='static', static_url_path='/')
 def home_page():
     return render_template("index.html")
 
+
+@app.route("/index.html")
+def index_page():
+    return render_template("index.html")
+
+
 @app.route("/about.html")
 def about_page():
     return render_template("about.html")
+
 
 @app.route("/loc.html")
 def loc_page():
     return render_template("loc.html")
 
+
 @app.route("/contact.html")
 def contact_page():
     return render_template("contact.html")
+
 
 @app.route("/onebedroom.html")
 def onebedroom_page():
     return render_template("onebedroom.html")
 
+
 @app.route("/twobedroom.html")
 def twobedroom_page():
     return render_template("twobedroom.html")
+
 
 @app.route("/studio.html")
 def studio_page():
     return render_template("studio.html")
 
+
 @app.route("/studiop.html")
 def stuiop_page():
     return render_template("studiop.html")
 
+
 @app.route("/rooms.html")
 def rooms_page():
     return render_template("rooms.html")
-
 
 # @app.route("/<string:page_name>")
 # def html_page(page_name):
